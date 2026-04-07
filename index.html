@@ -1,1 +1,315 @@
-<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><meta name='viewport' content='width=device-width,initial-scale=1.0'><title>Root Hub</title><style>body{font-family:Georgia,serif;max-width:700px;margin:0 auto;padding:40px 24px;color:#222}h1{color:#1a3a1a}nav a{margin-right:12px;color:#4a8a3a}</style></head><body><h1>Root Hub</h1><p>Urban homesteading and self-sufficiency for city dwellers.</p><nav><a href='/blog/'>Blog</a></nav></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Root Hub connects you to expert guides across trades, education, insurance claims, and AI tools.">
+  <meta property="og:title" content="Root Hub - Your Gateway to Expert Guides">
+  <meta property="og:description" content="Professional resources for trades, education, insurance claims, and AI tools.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://gogopaschalgadget-web.github.io/root-hub/">
+  <meta property="og:image" content="https://gogopaschalgadget-web.github.io/root-hub/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Root Hub - Your Gateway to Expert Guides">
+  <meta name="twitter:description" content="Professional resources for trades, education, insurance claims, and AI tools.">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Root Hub",
+    "url": "https://gogopaschalgadget-web.github.io/root-hub/",
+    "description": "Your gateway to expert guides across trades, education, insurance claims, and AI tools.",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://gogopaschalgadget-web.github.io/root-hub/?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <title>Root Hub - Your Gateway to Expert Resources</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      color: #1a1a1a;
+      background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      margin: 60px 0 40px 0;
+    }
+
+    h1 {
+      font-size: 3.5rem;
+      color: #0d3a0d;
+      margin-bottom: 10px;
+      font-weight: 700;
+    }
+
+    .tagline {
+      font-size: 1.3rem;
+      color: #555;
+      margin-bottom: 30px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+      margin: 50px 0;
+    }
+
+    .card {
+      background: white;
+      border-radius: 8px;
+      padding: 32px 24px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: all 0.3s ease;
+      text-decoration: none;
+      color: #1a1a1a;
+      border-top: 4px solid;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+    }
+
+    .card.trades {
+      border-top-color: #d4793f;
+    }
+
+    .card.trades h2 {
+      color: #d4793f;
+    }
+
+    .card.education {
+      border-top-color: #2563eb;
+    }
+
+    .card.education h2 {
+      color: #2563eb;
+    }
+
+    .card.insurance {
+      border-top-color: #7c3aed;
+    }
+
+    .card.insurance h2 {
+      color: #7c3aed;
+    }
+
+    .card.ai {
+      border-top-color: #059669;
+    }
+
+    .card.ai h2 {
+      color: #059669;
+    }
+
+    .card h2 {
+      font-size: 1.5rem;
+      margin-bottom: 12px;
+    }
+
+    .card p {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #666;
+      margin-bottom: 20px;
+    }
+
+    .card-cta {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #f0f0f0;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.2s ease;
+    }
+
+    .card:hover .card-cta {
+      background: #e0e0e0;
+    }
+
+    .cta-section {
+      background: white;
+      border-radius: 8px;
+      padding: 40px 32px;
+      text-align: center;
+      margin: 50px 0;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .cta-section h2 {
+      font-size: 2rem;
+      color: #0d3a0d;
+      margin-bottom: 16px;
+    }
+
+    .cta-section p {
+      font-size: 1.1rem;
+      color: #666;
+      margin-bottom: 24px;
+    }
+
+    .btn-primary {
+      display: inline-block;
+      padding: 14px 32px;
+      background: #0d3a0d;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: 600;
+      transition: background 0.2s ease;
+    }
+
+    .btn-primary:hover {
+      background: #0a2d0a;
+    }
+
+    .guarantee {
+      font-size: 0.9rem;
+      color: #888;
+      margin-top: 12px;
+    }
+
+    nav {
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    nav a {
+      margin: 0 16px;
+      color: #0d3a0d;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.2s ease;
+    }
+
+    nav a:hover {
+      color: #d4793f;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      color: #999;
+      border-top: 1px solid #ddd;
+      margin-top: 60px;
+    }
+
+    .divider {
+      height: 1px;
+      background: #ddd;
+      margin: 40px 0;
+    }
+
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 2.5rem;
+      }
+
+      .tagline {
+        font-size: 1.1rem;
+      }
+
+      .cards {
+        grid-template-columns: 1fr;
+      }
+
+      .card {
+        padding: 24px 16px;
+      }
+
+      .cta-section {
+        padding: 32px 24px;
+      }
+
+      .cta-section h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Root Hub</h1>
+      <p class="tagline">Your gateway to expert resources, templates, and tools.</p>
+    </header>
+
+    <nav>
+      <a href="#trades">Trades</a>
+      <a href="#education">Education</a>
+      <a href="#insurance">Insurance</a>
+      <a href="#ai">AI Tools</a>
+      <a href="/blog/">Blog</a>
+    </nav>
+
+    <div class="cards">
+      <a href="https://gogopaschalgadget-web.github.io/tradespro-guide/" class="card trades" id="trades">
+        <h2>TradesPro</h2>
+        <p>Expert guides for construction, plumbing, HVAC, electrical work, and home improvement. Industry-standard practices and professional templates.</p>
+        <span class="card-cta">Explore TradesPro</span>
+      </a>
+
+      <a href="https://gogopaschalgadget-web.github.io/eduspark/" class="card education" id="education">
+        <h2>EduSpark</h2>
+        <p>K-5 educational resources, lesson plans, learning activities, and teaching tools to help educators engage students effectively.</p>
+        <span class="card-cta">Explore EduSpark</span>
+      </a>
+
+      <a href="https://gogopaschalgadget-web.github.io/claimcheck/" class="card insurance" id="insurance">
+        <h2>ClaimCheck</h2>
+        <p>Insurance claim documentation guides, settlement resources, and templates for managing claims and disputes effectively.</p>
+        <span class="card-cta">Explore ClaimCheck</span>
+      </a>
+
+      <a href="https://gogopaschalgadget-web.github.io/dreamforge-ai/" class="card ai" id="ai">
+        <h2>DreamForge AI</h2>
+        <p>AI prompts, workflow guides, ChatGPT templates, and automation tools for business and creative work.</p>
+        <span class="card-cta">Explore DreamForge</span>
+      </a>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="cta-section">
+      <h2>Ready to Level Up?</h2>
+      <p>Access premium bundles, templates, and guides across all verticals.</p>
+      <a href="https://gogopaschal.gumroad.com/" class="btn-primary">Browse Our Store</a>
+      <p class="guarantee">30-day money back guarantee on all products.</p>
+    </div>
+
+    <nav>
+      <a href="https://gogopaschal.gumroad.com/">Gumroad Store</a>
+      <a href="/blog/">Blog</a>
+    </nav>
+
+    <footer>
+      <p>Root Hub connects you to expert resources across trades, education, insurance, and AI. 30-day money back guarantee on all products.</p>
+      <p style="margin-top: 12px; font-size: 0.85rem;">Copyright 2026. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
