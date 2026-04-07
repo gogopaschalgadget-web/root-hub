@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gogopaschalgadget-web.github.io/root-hub/sitemap.xml
